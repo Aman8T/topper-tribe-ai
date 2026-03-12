@@ -1,9 +1,9 @@
 import { type Subject } from "@/data/problems";
 
 const colors: Record<Subject, string> = {
-  Physics: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-  Chemistry: "bg-green-500/20 text-green-400 border-green-500/30",
-  Maths: "bg-orange-500/20 text-orange-400 border-orange-500/30",
+  Physics: "bg-blue-800/15 text-blue-800 border-blue-800/25",
+  Chemistry: "bg-emerald-800/15 text-emerald-800 border-emerald-800/25",
+  Maths: "bg-amber-700/15 text-amber-800 border-amber-700/25",
 };
 
 const SubjectBadge = ({ subject }: { subject: Subject }) => (
